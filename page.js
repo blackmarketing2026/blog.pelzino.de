@@ -113,8 +113,31 @@
     });
   }
 
+  function initNavDropdowns() {
+    var toggles = document.querySelectorAll(".nav-dropdown-toggle");
+    toggles.forEach(function (toggle) {
+      var menu = toggle.nextElementSibling;
+      if (!menu) return;
+      toggle.addEventListener("click", function (e) {
+        e.stopPropagation();
+        var isOpen = menu.classList.toggle("is-open");
+        toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+      });
+    });
+
+    document.addEventListener("click", function () {
+      document.querySelectorAll(".nav-dropdown-menu.is-open").forEach(function (menu) {
+        menu.classList.remove("is-open");
+      });
+      document.querySelectorAll('.nav-dropdown-toggle[aria-expanded="true"]').forEach(function (toggle) {
+        toggle.setAttribute("aria-expanded", "false");
+      });
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     initNav();
+    initNavDropdowns();
     initCookieConsent();
   });
 })();

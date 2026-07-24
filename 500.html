@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Serverfehler (500) | Pelzino</title>
+<meta name="description" content="Es ist ein unerwarteter Serverfehler aufgetreten." />
+<meta name="robots" content="noindex" />
+<link rel="icon" href="medien/pelzino-logo.png" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body class="page-body">
+
+<header class="page-header">
+  <div class="header-inner">
+    <a href="index.html" class="brand"><img src="medien/pelzino-logo.png" alt="Pelzino Logo" />Pelzino</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menü öffnen">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html#hundefutter">Hundefutter</a>
+      <a href="index.html#katzenfutter">Katzenfutter</a>
+      <a href="blog/index.html">Blog</a>
+      <a href="blog/kategorien.html">Ratgeber-Kategorien</a>
+    </nav>
+    <div class="header-cta">
+      <a href="https://www.pelzino.de/" class="btn btn-shop" target="_blank" rel="noopener">Zum Shop</a>
+    </div>
+  </div>
+</header>
+
+<main class="page-content">
+  <section class="error-page" data-tone="danger">
+    <div class="container">
+      <div class="error-code">500</div>
+      <h1>Etwas ist schiefgelaufen</h1>
+      <p>Auf unserer Seite ist ein technisches Problem aufgetreten. Bitte versuche es später erneut.</p>
+      <div class="error-actions">
+        <a href="index.html" class="btn btn-primary">Zur Startseite</a>
+      </div>
+      <div class="error-links">
+        <a href="blog/index.html">Blog</a>
+        <a href="https://www.pelzino.de/" target="_blank" rel="noopener">Online-Shop</a>
+        <a href="impressum.html">Kontakt / Impressum</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="medien/pelzino-logo.png" alt="Pelzino Logo" />
+          <span>Pelzino</span>
+        </div>
+        <p>Ratgeber & Wissen rund um Hunde- und Katzenfutter — mit direktem Draht zum Pelzino Online-Shop.</p>
+      </div>
+      <div>
+        <h4>Ratgeber</h4>
+        <ul>
+          <li><a href="blog/index.html">Alle Artikel</a></li>
+          <li><a href="blog/kategorien.html">Kategorien</a></li>
+          <li><a href="blog/hundefutter/index.html">Hundefutter</a></li>
+          <li><a href="blog/katzenfutter/index.html">Katzenfutter</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="https://www.pelzino.de/" target="_blank" rel="noopener">Pelzino Online-Shop</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Rechtliches</h4>
+        <ul>
+          <li><a href="impressum.html">Impressum</a></li>
+          <li><a href="datenschutz.html">Datenschutz</a></li>
+          <li><a href="agb.html">AGB</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Pelzino. Alle Rechte vorbehalten.</span>
+      <span>Ein Angebot von Function Concept</span>
+    </div>
+  </div>
+</footer>
+
+<button class="cookie-pill" id="cookiePill">Cookie-Einstellungen</button>
+<div class="cookie-modal" id="cookieModal">
+  <div class="cookie-modal-inner">
+    <h3>Cookie-Einstellungen</h3>
+    <p>Wir nutzen Cookies, um unsere Website bereitzustellen und zu verbessern. Notwendige Cookies sind immer aktiv. Analyse- und Marketing-Cookies laden wir nur nach deiner ausdrücklichen Zustimmung.</p>
+    <div class="cookie-options">
+      <label class="cookie-option"><span>Notwendig (immer aktiv)</span><input type="checkbox" checked disabled /></label>
+      <label class="cookie-option"><span>Statistik / Analyse</span><input type="checkbox" id="consentAnalytics" /></label>
+      <label class="cookie-option"><span>Marketing</span><input type="checkbox" id="consentMarketing" /></label>
+    </div>
+    <div class="cookie-actions">
+      <button class="btn btn-primary" data-cookie-accept-all>Alle akzeptieren</button>
+      <button class="btn btn-secondary" data-cookie-save>Auswahl speichern</button>
+      <button class="btn btn-ghost" data-cookie-necessary-only>Nur notwendige</button>
+    </div>
+  </div>
+</div>
+
+<script src="page.js"></script>
+</body>
+</html>

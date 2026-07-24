@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.pelzino-blog.de/index.html</loc>
+    <loc>https://www.pelzino-blog.de/</loc>
     <priority>1.0</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://www.pelzino-blog.de/blog/index.html</loc>
+    <loc>https://www.pelzino-blog.de/blog/</loc>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://www.pelzino-blog.de/blog/kategorien.html</loc>
+    <loc>https://www.pelzino-blog.de/blog/kategorien</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.pelzino-blog.de/blog/hundefutter/index.html</loc>
+    <loc>https://www.pelzino-blog.de/blog/hundefutter/</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.pelzino-blog.de/blog/hundefutter-ohne-getreide/index.html</loc>
+    <loc>https://www.pelzino-blog.de/blog/hundefutter-ohne-getreide/</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.pelzino-blog.de/blog/hundefutter-ohne-getreide/getreidefreies-hundefutter-vergleich.html</loc>
+    <loc>https://www.pelzino-blog.de/blog/hundefutter-ohne-getreide/getreidefreies-hundefutter-vergleich</loc>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.pelzino-blog.de/blog/katzenfutter/index.html</loc>
+    <loc>https://www.pelzino-blog.de/blog/katzenfutter/</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.pelzino-blog.de/impressum.html</loc>
+    <loc>https://www.pelzino-blog.de/impressum</loc>
     <priority>0.3</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>https://www.pelzino-blog.de/agb.html</loc>
+    <loc>https://www.pelzino-blog.de/agb</loc>
     <priority>0.3</priority>
     <changefreq>yearly</changefreq>
   </url>

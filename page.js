@@ -3,6 +3,7 @@
   "use strict";
 
   var CONSENT_KEY = "cookie-consent";
+  var GTM_ID = "GTM-PJ3PLBSR";
 
   function getConsent() {
     try {
@@ -16,18 +17,30 @@
     localStorage.setItem(CONSENT_KEY, JSON.stringify(consent));
   }
 
-  /* Tracking wird ausschliesslich dynamisch nachgeladen, nie statisch im HTML.
-     Platzhalter: hier wuerde z.B. Google Tag Manager per createElement('script')
-     eingehaengt, sobald aktive Einwilligung vorliegt. */
+  /* Google Tag Manager wird ausschliesslich dynamisch nachgeladen, nie statisch
+     im HTML — erst wenn aktive Einwilligung (Statistik und/oder Marketing) vorliegt. */
   function loadTracking(consent) {
     if (window.__gtmLoaded) return;
-    if (!consent || !consent.analytics) return;
+    if (!consent || (!consent.analytics && !consent.marketing)) return;
     window.__gtmLoaded = true;
-    // Beispiel (deaktiviert, bis echte GTM-ID hinterlegt ist):
-    // var s = document.createElement('script');
-    // s.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-XXXXXXX';
-    // s.async = true;
-    // document.head.appendChild(s);
+
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: "consent_update",
+      consent_analytics: !!consent.analytics,
+      consent_marketing: !!consent.marketing,
+    });
+
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l !== "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", GTM_ID);
   }
 
   function openModal() {

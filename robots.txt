@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /datenschutz
 
-Sitemap: https://www.pelzino-blog.de/sitemap.xml
+Sitemap: https://www.blog.pelzino.de/sitemap.xml

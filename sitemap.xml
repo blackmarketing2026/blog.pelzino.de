@@ -81,6 +81,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://www.blog.pelzino.de/blog/hundegesundheit/hund-will-nicht-fressen</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://www.blog.pelzino.de/impressum</loc>
     <priority>0.3</priority>
     <changefreq>yearly</changefreq>

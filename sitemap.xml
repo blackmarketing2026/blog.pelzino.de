@@ -31,6 +31,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://www.blog.pelzino.de/blog/hundefutter/gutes-feuchtfutter-fuer-hunde</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://www.blog.pelzino.de/blog/hundefutter/bestes-nassfutter-hunde</loc>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -47,6 +52,11 @@
   </url>
   <url>
     <loc>https://www.blog.pelzino.de/blog/katzenfutter/</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.blog.pelzino.de/blog/hundegesundheit/</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>

@@ -8,4 +8,4 @@ Redaktionelle Prüfung: eigenständige Suchintentionen, keine erfundenen Tests/B
 
 Keine Buildpipeline/package.json vorhanden. Keine visuelle Browser-/Desktop-/Mobilprüfung gemäß ausdrücklichem Nutzerauftrag. Keine Aussage über visuell getestete Darstellung. Statische Codeprüfung und nachfolgende HTTP-/Deploymentprüfung.
 
-Veröffentlichung und Live-Prüfung stehen zum Zeitpunkt dieses Prüfstands noch aus.
+Veröffentlicht mit Commit 35d5b9992032724b3770d20dcadaa698316e2e9c. Vercel bestätigt success / Deployment has completed. Alle fünf neuen Artikel öffentlich HTTP 200 mit erwarteter Überschrift und eigenem Canonical bestätigt. Öffentliche Sitemap HTTP 200, XML parsebar und alle fünf URLs enthalten. Beide neuen Produktbilder HTTP 200 (41806 und 19152 Bytes). Veröffentlichung via autorisierter GitHub-Git-API mit erwarteter HEAD-SHA und ohne Force-Push. Keine Browserprüfung durchgeführt.

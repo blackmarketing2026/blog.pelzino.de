@@ -37,4 +37,10 @@ Wie beauftragt wurde keine visuelle Desktop-/Mobilprüfung, keine Browser-Simula
 
 ## Veröffentlichung
 
-Noch ausstehend. Dieser Abschnitt wird nach Commit, Push und bestätigtem Vercel-Deployment aktualisiert.
+- Veröffentlichung auf `main` mit Commit `a03ac85bc4b22d552c77da41eff00eb114030133` bestätigt.
+- GitHub-Status `Vercel`: `success`, Beschreibung `Deployment has completed`.
+- Alle fünf finalen URLs per HTTP mit Status 200 abgerufen; der ausgelieferte HTML-Quelltext ist jeweils bytegleich mit der geprüften Repository-Datei.
+- Die fünf veröffentlichten Produktbilder wurden per HTTP abgerufen und bytegleich mit den geprüften lokalen Dateien verglichen.
+- Öffentliche Blog- und Zubehörübersicht enthalten alle fünf neuen Links.
+- Die veröffentlichte `sitemap.xml` enthält alle fünf neuen kanonischen URLs.
+- Diese Prüfungen bestätigen Deployment und Erreichbarkeit, nicht die Google-Indexierung.

@@ -65,4 +65,3 @@ Die Partnerzuordnung `/content/partners/402376a/` bleibt in allen Shoplinks erha
 - OpenSEO-Projektkontext und Rechercheprotokoll, Projekt `161526c5-c43f-4373-a971-d13d26bd5ddc`.
 - Aktuelle Pelzino-Shop-Sitemap und die oben genannten Produktseiten, Abruf 21.11.2026.
 - Öffentliche Suchergebnisse zu den fünf konkreten Produkt- und Vergleichsclustern, Abruf 21.11.2026.
-
